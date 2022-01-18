@@ -31,7 +31,6 @@ header {
   float: right;
   text-align: center;
   width: 100%;
-  margin: 13px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
@@ -40,7 +39,6 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px;
-  margin: 10px;
 }
 
 .navbar a {
