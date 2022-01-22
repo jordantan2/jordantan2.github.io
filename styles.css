@@ -35,6 +35,10 @@ header {
   cursor: pointer;
 }
 
+p {
+  font-size: small;
+}
+
 .topsection {
   display: flex;
   justify-content: center;
@@ -78,7 +82,7 @@ h2 {
   text-align: center;
   background-color: gainsboro;
   opacity: 0.5;
-  border-radius: 50%;
+  border-radius: 65%;
 }
 
 .description h3 {
