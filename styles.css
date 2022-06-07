@@ -196,18 +196,18 @@ p {
 .form {
   margin: 40px;
 }
+
 .bottomsec {
   display: flex;
   justify-content: center;
+  background-color: sandybrown;
+  padding: 90px;
 }
 
 .contactbottomhalf {
   background-color: lightblue;
 }
 
-.fbimage {
-  width: 60px;
-}
 
 .instaimage {
   width: 65px;
@@ -244,6 +244,8 @@ p {
 .units {
   display: flex;
   flex-direction: column; 
+  background-color: palevioletred;
+  padding: 105px;
 }
 
 #grouplink {
