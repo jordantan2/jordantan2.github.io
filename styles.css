@@ -11,9 +11,55 @@
   position: absolute;
 }
 
-.name {
-  text-align: center;
+#space {
+  margin: 8px;
 }
+
+#module1 {
+  padding: 10px;
+  margin: 5px;
+}
+
+
+#shecodesimage {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+}
+
+.moduletitles {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.modules {
+  display: flex;
+  flex-direction: row;
+}
+
+.shecodestopbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.shecodesbotbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+#title {
+  text-align: center;
+  border: lightblue;
+  font-size: 60px;
+  margin: 0px;
+  background-color: lightblue;
+}
+
 .banner {
   display: inline-block;
 }
@@ -42,7 +88,7 @@ p {
 .topsection {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 .navbar a {
@@ -52,51 +98,61 @@ p {
 }
 
 #image {
-  display: inline-block;
-  width: 30%;
+  flex-direction: row;
+  display: flex;
+  width: 24%;
   height: 25%;
   margin: 0px;
   padding: 5px;
+  background-color: white;
+  opacity: 95%;
 }
 
-h2 {
+/* h2 {
   margin: 0px;
   text-align: center;
   color: black;
   font-size: 60px;
   float: none;
-}
+} */
 
 .main {
-  background-color: #c6a7d0;
+  background-image: url("https://media.istockphoto.com/photos/winter-abstract-light-white-blue-oil-painting-background-picture-id607735558?k=6&m=607735558&s=170667a&w=0&h=s9KatAhzSfso2cauc2EMKg5HGhEsNdSsIVIfw0iMWwQ="); */
+  /* background-image: url("https://th.bing.com/th/id/R.22b467b85e421d59acc1fcc23494e66f?rik=skptBqHfIQSvHA&riu=http%3a%2f%2fwww.miroirnoir.org%2fuploads%2f254.jpg&ehk=k3kYCaTMsLRiHSOAkWKgJt58QLzWEWVcg3tjBSCNC5Y%3d&risl=&pid=ImgRaw&r=0");  */
   padding: 10px;
+}
+
+#quote {
+  display: flex;
+  justify-content: left;
+  font-size: 32px;
 }
 
 .bottomhalfmain {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
 }
 
 .description {
   align-self: center;
   text-align: center;
-  background-color: gainsboro;
-  opacity: 0.5;
-  border-radius: 65%;
-  width: 60%;
+  border-radius: 80%;
+  width: 50%;
 }
 
 .description h3 {
-  font-family: "Snell Roundhand", sans-serif;
   font-size: 40px;
   margin: 0%;
   padding: 0%;
+  background-size: contain;
+  background-color:rgba(0, 0, 0, 0.2)
 }
 
 /* drop down achievements */
 .dropdown {
   display: inline-flex;
-  margin: 13px;
+  margin: 15px;
 }
 
 .dropdown .dropbtn {
@@ -107,10 +163,10 @@ h2 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 124px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  top: 65px;
+  top: 60px;
 }
 
 .dropdown-content a {
@@ -145,6 +201,10 @@ h2 {
   justify-content: center;
 }
 
+.contactbottomhalf {
+  background-color: lightblue;
+}
+
 .fbimage {
   width: 60px;
 }
@@ -159,6 +219,7 @@ h2 {
 
 #getintouch {
   text-align: center;
+  font-size: 60px;
 }
 
 .socials {
@@ -169,6 +230,7 @@ h2 {
 
 .socials > img {
   margin: 20px;
+  padding: 20px;
 }
 
 .form-item {
@@ -177,8 +239,41 @@ h2 {
   align-items: center;
   padding: 5px;
 }
+
+
+.units {
+  display: flex;
+  flex-direction: column; 
+}
+
+#grouplink {
+  color: plum;
+  text-decoration: underline;
+}
+
+#linkdesc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#linkcontainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.shecodesmain {
+  background-color: plum;
+  padding: 10px;
+}
+
 @media (max-width: 576) {
+  
 }
 
 @media (min-width: 768) {
 }
+
+
