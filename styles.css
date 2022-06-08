@@ -54,10 +54,9 @@
 }
 #title {
   text-align: center;
-  border: lightblue;
   font-size: 60px;
   margin: 0px;
-  background-color: lightblue;
+  background-color: rgb(168, 185, 244);
 }
 
 .banner {
@@ -107,14 +106,6 @@ p {
   background-color: white;
   opacity: 95%;
 }
-
-/* h2 {
-  margin: 0px;
-  text-align: center;
-  color: black;
-  font-size: 60px;
-  float: none;
-} */
 
 .main {
   background-image: url("https://media.istockphoto.com/photos/winter-abstract-light-white-blue-oil-painting-background-picture-id607735558?k=6&m=607735558&s=170667a&w=0&h=s9KatAhzSfso2cauc2EMKg5HGhEsNdSsIVIfw0iMWwQ="); */
@@ -200,14 +191,9 @@ p {
 .bottomsec {
   display: flex;
   justify-content: center;
-  background-color: sandybrown;
+  background-color: rgb(255, 187, 128);
   padding: 90px;
 }
-
-.contactbottomhalf {
-  background-color: lightblue;
-}
-
 
 .instaimage {
   width: 65px;
@@ -244,7 +230,7 @@ p {
 .units {
   display: flex;
   flex-direction: column; 
-  background-color: palevioletred;
+  background-color: rgb(244, 158, 196);
   padding: 105px;
 }
 
@@ -269,6 +255,49 @@ p {
 .shecodesmain {
   background-color: plum;
   padding: 10px;
+}
+
+#bio1, #bio2, #bio3, #bio4{
+  font-size: 18px;
+  background-color: aliceblue; 
+  opacity: 80%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: whitesmoke;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.secondslide {
+  padding: 75px;
 }
 
 @media (max-width: 576) {
