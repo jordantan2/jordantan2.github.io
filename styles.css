@@ -99,7 +99,7 @@ p {
 #image {
   flex-direction: row;
   display: flex;
-  width: 24%;
+  width: 305px;
   height: 25%;
   margin: 0px;
   padding: 5px;
@@ -110,7 +110,6 @@ p {
 .main {
   background-image: url("https://media.istockphoto.com/photos/winter-abstract-light-white-blue-oil-painting-background-picture-id607735558?k=6&m=607735558&s=170667a&w=0&h=s9KatAhzSfso2cauc2EMKg5HGhEsNdSsIVIfw0iMWwQ="); */
   /* background-image: url("https://th.bing.com/th/id/R.22b467b85e421d59acc1fcc23494e66f?rik=skptBqHfIQSvHA&riu=http%3a%2f%2fwww.miroirnoir.org%2fuploads%2f254.jpg&ehk=k3kYCaTMsLRiHSOAkWKgJt58QLzWEWVcg3tjBSCNC5Y%3d&risl=&pid=ImgRaw&r=0");  */
-  padding: 10px;
 }
 
 #quote {
@@ -246,11 +245,6 @@ p {
   justify-content: space-evenly;
 }
 
-#linkcontainer {
-  display: flex;
-  flex-direction: row;
-
-}
 
 .shecodesmain {
   background-color: plum;
